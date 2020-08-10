@@ -6,11 +6,9 @@ with open('README.md') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='ping',
+    name='simple-ping',
     version='0.1',
-    #scripts=['ping'],
     author='Fernando Abreu',
-    author_github='https://github.com/nandoabreu',
     description='Python ping package',
     long_description=long_description,
     long_description_content_type='text/markdown',

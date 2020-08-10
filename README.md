@@ -1,6 +1,6 @@
 # python-ping
 
-Python ping package
+Simple Python ping package published in [PyPi](https://pypi.org/project/simple-ping/).
 
 &nbsp;  
 &nbsp;  
