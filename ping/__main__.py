@@ -12,11 +12,11 @@ from . import Ping
 if __name__ == '__main__':
     host = input('Inform hostname or IP: ')
 
-    if len(host) > 0:
-        ping = Ping(host=host, count=1)
+    if len(host) != 0:
+        ping = Ping(host)
 
-        if ping.returncode > 0:
+        if ping.returncode != 0:
             print(f'Ping returns error: {ping.stderr!r}')
         else:
-            print(f'Ping avg return: {ping.avg}')
+            print(f'Ping avg return: {ping.avg} ms')
 
