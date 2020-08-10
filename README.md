@@ -1,4 +1,4 @@
-# python-ping
+# simple-ping
 
 Simple Python ping package published in [PyPi](https://pypi.org/project/simple-ping/).
 
@@ -6,6 +6,7 @@ Simple Python ping package published in [PyPi](https://pypi.org/project/simple-p
 &nbsp;  
 ## README Map
 
+- To pip install, run: ` pip install simple-ping `
 - To run locally, go to [Run from command line](#run-from-command-line).
 - To use the main class, skip to [The main class](#the-main-class).
 - Instructions on advanced/technical documentation, go to [Documentation](#documentation).
