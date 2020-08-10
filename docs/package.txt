@@ -1,0 +1,19 @@
+
+Ping package
+
+Usage (from shell):
+    $ python -m ping
+
+API:
+    from ping import Ping
+
+    ping_once = Ping('localhost')
+    print(ping_once.avg)
+    print(ping_once.avg)
+
+    ping_more = Ping()
+    ping_more.ping('localhost')
+    print(ping_more.avg)
+    ping_more.ping('google.com')
+    print(ping_more.avg)
+

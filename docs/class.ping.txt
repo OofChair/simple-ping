@@ -1,0 +1,15 @@
+
+        Run ping
+
+        Arguments:
+            host (str): Hostname or IP address to be pinged
+            count (int, optional): Number of pings to run (default: 3)
+
+        Attributes:
+            returncode (int): OS error return code
+            stderr (str): OS error message
+            min (float): Lowest ping response, in ms
+            avg (float): Average ping response, in ms
+            max (float): Highest ping response, in ms
+            jitter (float): Average of deviation
+        

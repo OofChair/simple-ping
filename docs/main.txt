@@ -1,0 +1,6 @@
+
+Ping package execution
+
+Usage (from shell):
+    $ python -m ping
+
