@@ -24,6 +24,7 @@ With the python console and the [Ping class](ping/__init__.py), we can get thing
     >>> from ping import Ping
     >>> ping = Ping('localhost')
     >>> print(f'Ping avg return: {ping.avg} ms')
+    >>> print(f'Ping errors return: {ping.returncode} {ping.stderr}')
 
 
 ## Documentation
